@@ -1,0 +1,146 @@
+<div class="w-100 content1 d-flex justify-content-center pt-5">
+  <div class="text-white">
+    <h2 class="fw-bold fs-1 text-center">PORTFOLIO COMPONENT</h2>
+    <div class="d-flex justify-content-center aftter align-items-center my-3">
+      <div class="line rounded-pill me-3"></div>
+      <i class="fa-solid fa-star"></i>
+      <div class="line rounded-pill ms-3"></div>
+    </div>
+    <div class="container">
+      <div class="row gy-5">
+        <div class="col-md-4 mb-5">
+          <div class="position-relative">
+            <img
+              src="../../assets/images/poert1.png"
+              class="w-100 rounded-4"
+              alt=""
+            />
+            <div
+              class="lay position-absolute top-0 bottom-0 end-0 start-0 rounded-4 d-flex justify-content-center align-items-center"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+              id="1"
+              (click)="modal('poert1')"
+            >
+              <i class="fa-solid fa-plus fa-6x"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="position-relative">
+            <img
+              src="../../assets/images/port2.png"
+              class="w-100 rounded-4"
+              alt=""
+            />
+            <div
+              class="lay position-absolute top-0 bottom-0 end-0 start-0 rounded-4 d-flex justify-content-center align-items-center"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+              id="2"
+              (click)="modal('port2')"
+
+            >
+              <i class="fa-solid fa-plus fa-6x"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="position-relative">
+            <img
+              src="../../assets/images/port3.png"
+              class="w-100 rounded-4"
+              alt=""
+            />
+            <div
+              class="lay position-absolute top-0 bottom-0 end-0 start-0 rounded-4 d-flex justify-content-center align-items-center"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+              (click)="modal('port3')"
+              id="3"
+            >
+              <i class="fa-solid fa-plus fa-6x"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="position-relative">
+            <img
+              src="../../assets/images/poert1.png"
+              class="w-100 rounded-4"
+              alt=""
+            />
+            <div
+              class="lay position-absolute top-0 bottom-0 end-0 start-0 rounded-4 d-flex justify-content-center align-items-center"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+              id="1"
+              (click)="modal('poert1')"
+
+            >
+              <i class="fa-solid fa-plus fa-6x"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="position-relative">
+            <img
+              src="../../assets/images/port2.png"
+              class="w-100 rounded-4"
+              alt=""
+            />
+            <div
+              class="lay position-absolute top-0 bottom-0 end-0 start-0 rounded-4 d-flex justify-content-center align-items-center"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+              id="2"
+              (click)="modal('port2')"
+
+            >
+              <i class="fa-solid fa-plus fa-6x"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="position-relative">
+            <img
+              src="../../assets/images/port3.png"
+              class="w-100 rounded-4"
+              alt=""
+            />
+            <div
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+              class="lay position-absolute top-0 bottom-0 end-0 start-0 rounded-4 d-flex justify-content-center align-items-center"
+              id="3"
+              (click)="modal('port3')"
+
+            >
+              <i class="fa-solid fa-plus fa-6x"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal -->
+<div
+  class="modal fade  "
+  id="exampleModal"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+    <div class="modal-dialog content2">
+      <div class="modal-content ">
+        <div class="modal-header ">
+
+         <img [src]="x" class="w-100 " alt="">
+
+        </div>
+      </div>
+    </div>
+</div>

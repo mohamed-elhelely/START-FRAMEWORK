@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+}
+.content1 {
+  margin-top: 86px;
+  min-height: calc(100vh - 106px);
+  background-color: #1abc9c;
+}
+.line {
+  width: 80px;
+  height: 4px;
+}

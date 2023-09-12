@@ -1,0 +1,53 @@
+<div class="w-100 content1 pt-5">
+  <div class="text-white">
+    <h2 class="fw-bold fs-1 text-center">PORTFOLIO COMPONENT</h2>
+    <div class="d-flex justify-content-center align-items-center my-3">
+      <div class="line rounded-pill me-3"></div>
+      <i class="fa-solid fa-star star"></i>
+      <div class="line rounded-pill ms-3"></div>
+    </div>
+  </div>
+  <div class="container mt-5 w-50 m-auto">
+    <label for="" class="text-danger ps-3 titel1 position-relative"
+      ><span class="titel" id="titeln">use name :</span></label
+    >
+    <input
+      id="name"
+      placeholder="use name"
+      class="form-control w-100 m-auto mb-4 border-0"
+      type="text"
+      (keyup)="change()"
+    />
+    <label for="" class="text-danger ps-3 titel1 position-relative"
+      ><span class="titel" id="titela">user age :</span></label
+    >
+    <input
+      id="age"
+      placeholder="user age"
+      class="form-control w-100 m-auto mb-4 border-0"
+      type="number"
+      (keyup)="change()"
+    />
+    <label for="" class="text-danger ps-3 titel1 position-relative"
+      ><span class="titel" id="titele">user email :</span></label
+    >
+    <input
+      (keyup)="change()"
+      id="email"
+      placeholder="user email"
+      class="form-control w-100 m-auto mb-4 border-0"
+      type="email"
+    />
+    <label for="" class="text-danger ps-3 titel1 position-relative"
+      ><span class="titel" id="titelp">user password :</span></label
+    >
+    <input
+      (keyup)="change()"
+      id="password"
+      placeholder="user password"
+      class="form-control w-100 m-auto mb-4 border-0"
+      type="password"
+    />
+    <button class="btn mb-5">send Message</button>
+  </div>
+</div>
